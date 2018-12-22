@@ -1,0 +1,3 @@
+name_scope及variable_scope的作用:
+相同点：在其代码块内显式创建的变量都会带上scope前缀。 
+不同点： 在其作用域中获取变量，name_scope对 tf.get_variable() 函数会自动添加前缀，另一个不会添加前缀。
